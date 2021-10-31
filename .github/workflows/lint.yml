@@ -4,6 +4,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: istall
+        run: |
+          make install
+      - name: publish
+        run: |
+          make publish
       - name: Run linter
         run: |
           make lint
