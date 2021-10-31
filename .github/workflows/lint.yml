@@ -1,15 +1,13 @@
 name: make
 on: push
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  my-job:
+    runs-on: ubuntu-latest 
     steps:
-      - name: istall
-        run: |
-          make install
-      - name: publish
-        run: |
-          make publish
-      - name: Run linter
-        run: |
-          make lint
+       - uses: actions/checkout@v2
+       - name: npm install
+         run: | 
+           make install
+       - name: Run Linter
+         run: | 
+           make lint
