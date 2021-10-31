@@ -1,3 +1,3 @@
-export const sayHello = name => {
-    console.log(`Hello, ${name}!`)
-}
+export default (name) => {
+  console.log(`Hello, ${name}!`);
+};
