@@ -7,10 +7,10 @@
 
 Install games
 
-Clone this repository
+1. Clone this repository
 
-Run the command: make install
+2. Run the command: make install
 
-Run the command: npm link
+3. Run the command: npm link
 
 [![asciicast](https://asciinema.org/a/446216.svg)](https://asciinema.org/a/446216)
