@@ -5,4 +5,12 @@
 
 [![Actions Status](https://github.com/EgorUlitin/frontend-project-lvl1/workflows/linter-check/badge.svg)](https://github.com/EgorUlitin/frontend-project-lvl1/actions)
 
+Install games
+
+Clone this repository
+
+Run the command: make install
+
+Run the command: npm link
+
 [![asciicast](https://asciinema.org/a/446216.svg)](https://asciinema.org/a/446216)
