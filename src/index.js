@@ -9,11 +9,12 @@ export default (question, getRightAnwser) => {
   console.log(question);
 
   for (let i = 0; i < maxGameScore; i += 1) {
-    const [questionNubmer, rightAnswer] = getRightAnwser();
-    console.log(`Question: ${questionNubmer}`);
+    const [exercise, rightAnswer] = getRightAnwser();
+    console.log(`Question: ${exercise}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    const isWrong = () => console.log(`'${userAnswer}'' is wrong answer ;(. Correct answer was '${rightAnswer}'. Let's try again, ${name}!`);
-    if (userAnswer === rightAnswer) {
+    const parsedUserAnswer = parseInt(userAnswer, 10);
+    const isWrong = () => console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'. Let's try again, ${name}!`);
+    if (parsedUserAnswer === rightAnswer) {
       console.log('Correct!');
     } else {
       isWrong();

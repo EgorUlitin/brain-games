@@ -13,4 +13,6 @@ Install games
 
 3. Run the command: npm link
 
+
+brain-even
 [![asciicast](https://asciinema.org/a/446216.svg)](https://asciinema.org/a/446216)
