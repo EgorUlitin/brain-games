@@ -20,8 +20,8 @@ const getRightAnwser = (num1, num2) => {
 };
 
 const prepareData = () => {
-  const nubmerOne = getRandomNumber(100);
-  const numberTwo = getRandomNumber(100);
+  const nubmerOne = getRandomNumber(1, 100);
+  const numberTwo = getRandomNumber(1, 100);
   const exercise = `${nubmerOne} ${numberTwo}`;
   const rightAnswer = getRightAnwser(nubmerOne, numberTwo);
 

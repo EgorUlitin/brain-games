@@ -7,7 +7,8 @@ const question = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const getRightAnwser = () => {
   const maxRandomNumber = 100;
-  const exercise = getRandomNumber(maxRandomNumber);
+  const minRandomNumber = 1;
+  const exercise = getRandomNumber(minRandomNumber, maxRandomNumber);
   const rightAnswer = isEven(exercise) ? 'yes' : 'no';
   return [exercise, rightAnswer];
 };

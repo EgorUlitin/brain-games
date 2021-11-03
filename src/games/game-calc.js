@@ -18,9 +18,9 @@ const getRightAnwser = (num1, num2, operation) => {
 };
 
 const prepareData = () => {
-  const operation = operations[getRandomNumber(3)];
-  const nubmerOne = getRandomNumber(100);
-  const numberTwo = getRandomNumber(100);
+  const operation = operations[getRandomNumber(1, 3)];
+  const nubmerOne = getRandomNumber(1, 100);
+  const numberTwo = getRandomNumber(1, 100);
   const exercise = `${nubmerOne} ${operation} ${numberTwo}`;
   const rightAnswer = getRightAnwser(nubmerOne, numberTwo, operation);
 
