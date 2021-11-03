@@ -4,7 +4,7 @@ import newGame from '../index.js';
 const question = 'What number is missing in the progression?';
 
 const getRightAnwser = () => {
-  const lenght = getRandomNumber(5, 10);
+  const lenght = getRandomNumber(7, 10);
   const step = getRandomNumber(2, 5);
   const firstNumber = getRandomNumber(1, 100);
   const result = [firstNumber];
