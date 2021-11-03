@@ -16,3 +16,15 @@ Install games
 
 brain-even
 [![asciicast](https://asciinema.org/a/446216.svg)](https://asciinema.org/a/446216)
+
+brain-calc
+[![asciicast](https://asciinema.org/a/Tm9LCqLnL4KMrjPSO9CeyZ5u1.svg)](https://asciinema.org/a/Tm9LCqLnL4KMrjPSO9CeyZ5u1)
+
+brain-nod
+[![asciicast](https://asciinema.org/a/r5f919dlGFvghGmL38YewHynx.svg)](https://asciinema.org/a/r5f919dlGFvghGmL38YewHynx)
+
+brain-progression
+[![asciicast](https://asciinema.org/a/QeFjGy95UgTVkjAzO6jrWYCPQ.svg)](https://asciinema.org/a/QeFjGy95UgTVkjAzO6jrWYCPQ)
+
+brain-prime
+[![asciicast](https://asciinema.org/a/npyfSBlfmO30SLvZgIuyilRcN.svg)](https://asciinema.org/a/npyfSBlfmO30SLvZgIuyilRcN)
