@@ -14,6 +14,7 @@ const getRightAnwser = (num1, num2) => {
   for (let i = greatestNumber - 1; i > 1; i -= 1) {
     if (num1 % i === 0 && num2 % i === 0) {
       result = i;
+      break;
     }
   }
   return result;
