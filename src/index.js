@@ -12,8 +12,9 @@ export default (question, getRightAnwser) => {
     const [exercise, rightAnswer] = getRightAnwser();
     console.log(`Question: ${exercise}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    const parsedUserAnswer = parseInt(userAnswer, 10);
+    let parsedUserAnswer = parseInt(userAnswer, 10);
     const isWrong = () => console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'. Let's try again, ${name}!`);
+    if (Number.isNaN(parsedUserAnswer)) parsedUserAnswer = userAnswer;
     if (parsedUserAnswer === rightAnswer) {
       console.log('Correct!');
     } else {
