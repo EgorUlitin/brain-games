@@ -19,7 +19,8 @@ const getRightAnwser = () => {
 
 const prepareData = () => {
   const [exercise, rightAnswer] = getRightAnwser();
-  return [exercise, rightAnswer];
+  const exerciseToString = exercise.join(' ');
+  return [exerciseToString, rightAnswer];
 };
 
 const gameProgression = () => newGame(question, prepareData);
