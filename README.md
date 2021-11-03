@@ -20,7 +20,7 @@ brain-even
 brain-calc
 [![asciicast](https://asciinema.org/a/Tm9LCqLnL4KMrjPSO9CeyZ5u1.svg)](https://asciinema.org/a/Tm9LCqLnL4KMrjPSO9CeyZ5u1)
 
-brain-nod
+brain-gcd
 [![asciicast](https://asciinema.org/a/r5f919dlGFvghGmL38YewHynx.svg)](https://asciinema.org/a/r5f919dlGFvghGmL38YewHynx)
 
 brain-progression

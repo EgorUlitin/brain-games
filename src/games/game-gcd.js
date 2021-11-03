@@ -28,6 +28,6 @@ const prepareData = () => {
   return [exercise, rightAnswer];
 };
 
-const gameNod = () => newGame(question, prepareData);
+const gameGcd = () => newGame(question, prepareData);
 
-export default gameNod;
+export default gameGcd;
