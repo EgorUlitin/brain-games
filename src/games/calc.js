@@ -2,7 +2,6 @@ import getRandomNumber from '../getRandomNumber.js';
 import newGame from '../index.js';
 
 const question = 'What is the result of the expression?';
-const operations = ['-', '+', '*'];
 
 const getRightAnwser = (num1, num2, operation) => {
   switch (operation) {
@@ -18,11 +17,12 @@ const getRightAnwser = (num1, num2, operation) => {
 };
 
 const prepareData = () => {
-  const operation = operations[getRandomNumber(1, 2)];
+  const operations = ['-', '+', '*'];
+  const operation = operations[getRandomNumber(0, 2)];
   const nubmerOne = getRandomNumber(1, 100);
   const numberTwo = getRandomNumber(1, 100);
   const exercise = `${nubmerOne} ${operation} ${numberTwo}`;
-  const rightAnswer = getRightAnwser(nubmerOne, numberTwo, operation);
+  const rightAnswer = getRightAnwser(nubmerOne, numberTwo, operation).toString();
 
   return [exercise, rightAnswer];
 };

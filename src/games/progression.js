@@ -14,15 +14,9 @@ const getRightAnwser = () => {
   }
   const rightAnswer = result[hiddenPosition];
   result[hiddenPosition] = '..';
-  return [result, rightAnswer];
+  return [result.join(' '), rightAnswer.toString()];
 };
 
-const prepareData = () => {
-  const [exercise, rightAnswer] = getRightAnwser();
-  const exerciseToString = exercise.join(' ');
-  return [exerciseToString, rightAnswer];
-};
-
-const gameProgression = () => newGame(question, prepareData);
+const gameProgression = () => newGame(question, getRightAnwser);
 
 export default gameProgression;
