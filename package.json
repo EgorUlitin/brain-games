@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EgorUlitin/frontend-project-lvl1.git"
+    "url": "git+https://github.com/EgorUlitin/brain-games.git"
   },
   "author": "egorulitin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EgorUlitin/frontend-project-lvl1/issues"
+    "url": "https://github.com/EgorUlitin/brain-games/issues"
   },
-  "homepage": "https://github.com/EgorUlitin/frontend-project-lvl1#readme",
+  "homepage": "https://github.com/EgorUlitin/brain-games#readme",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
